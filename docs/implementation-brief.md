@@ -17,7 +17,7 @@ Current website:
 - Existing mail link appears to point to: peter@thegriffinlounge.uk
 - Facebook: https://www.facebook.com/griffinbarandgrill
 - Instagram: https://www.instagram.com/griffinloungesouthampton/
-- Current food menu: Canva-hosted menu link on the existing page
+- Current food menu: locally hosted at `/assets/menu/griffin-menu-main.pdf` in the rebuild
 
 The site owner has authorised us to recreate the website and reuse the current website assets.
 

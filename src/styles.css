@@ -355,6 +355,13 @@ h3 {
   color: var(--muted);
 }
 
+.section-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 26px;
+}
+
 .image-stack {
   display: grid;
   grid-template-columns: 1fr 1fr;

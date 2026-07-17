@@ -5,8 +5,7 @@ const business = {
   phoneHref: "tel:+447404712153",
   email: "info@thegriffinlounge.uk",
   emailHref: "mailto:peter@thegriffinlounge.uk",
-  menuUrl:
-    "https://www.canva.com/design/DAGX2Xt-lC8/QvRze50zE7vVHdoFohHYIg/view?utm_content=DAGX2Xt-lC8&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+  menuUrl: "/assets/menu/griffin-menu-main.pdf",
   whatsapp:
     "https://wa.me/447404712153?text=Hi%20Griffin%20Lounge%2C%20I%20am%20reviewing%20the%20website%20concepts%20and%20my%20feedback%20is%3A",
 };
@@ -302,7 +301,7 @@ function renderConceptSection(section, concept) {
           <p class="eyebrow">Nigerian food</p>
           <h2>Explore a menu with real Nigerian depth.</h2>
           <p>Lead with the dishes that make Griffin distinctive: jollof rice, egusi, efo riro, suya, pepper soup, whole grilled fish, Gizdodo, Nkwobi and family-friendly favourites.</p>
-          <a class="button primary" href="${business.menuUrl}" target="_blank" rel="noreferrer">View Current Food Menu</a>
+          <a class="button primary" href="${business.menuUrl}" target="_blank" rel="noreferrer">View Full Food Menu</a>
         </div>
         <div class="menu-visuals">
           <img src="${assets.foodA}" alt="Egusi special at Griffin Lounge" />
