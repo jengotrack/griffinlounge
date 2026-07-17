@@ -665,6 +665,12 @@ h3 {
   object-fit: cover;
 }
 
+.afterglow-feature .afterglow-drink {
+  background: #050505;
+  object-fit: contain;
+  object-position: center;
+}
+
 .afterglow-feature .afterglow-art {
   background: #0b0b0b;
   object-fit: contain;
