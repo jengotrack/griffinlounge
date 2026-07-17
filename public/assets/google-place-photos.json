@@ -1,0 +1,127 @@
+{
+  "generatedAt": "2026-07-16T13:28:12.377Z",
+  "source": "Google Places API Place Photos (legacy fallback)",
+  "query": "Griffin Lounge Southampton 35-37 Anglesea Road SO15 5QH",
+  "place": {
+    "id": "ChIJmfMSFcp1dEgRhtNi8TFhlxs",
+    "name": "Griffin Lounge Southampton",
+    "formattedAddress": "35-37 Anglesea Rd, Shirley, Southampton SO15 5QH",
+    "rating": 4.6,
+    "userRatingCount": 13
+  },
+  "usageNotes": [
+    "Photo URLs come from the Google Places API and should be refreshed regularly.",
+    "Display authorAttributions wherever the related photo is shown.",
+    "Do not store or publish the API key in client-side code."
+  ],
+  "photos": [
+    {
+      "photoUri": "https://lh3.googleusercontent.com/place-photos/AG9NLjCEDmmZ8NRrPx4LQzQ6N_n12buE5aYp44vpotR4N6rhApmsdFPjTler4z9S3NMJB0dhvKz4jGBRYv45FKahEGNWNnsJ7iRh698krIRH21whjFjJWYuItr69DqisdyejvRE-0uBbDFCOabC7mdQaXetvQA=s1600-w1065",
+      "widthPx": 1065,
+      "heightPx": 772,
+      "authorAttributions": [
+        {
+          "displayName": "Griffin Lounge",
+          "uri": "https://maps.google.com/maps/contrib/104804760067220464807"
+        }
+      ],
+      "placeName": "Griffin Lounge Southampton"
+    },
+    {
+      "photoUri": "https://lh3.googleusercontent.com/place-photos/AG9NLjBwV0FKn8L6mbSDCraPsf3Bc5X4RQ3_BNKiR9QOv2h3vIPHsKB0e7mbUZpBi_EnN-wnetV6u82PaKdLXIhGjjOAXTBDBOhXEPGglrI1q8LZ-tM50cMvNh8cAqZZNrIIYI9HmgQBFwVh0D0Hhhw=s1600-w1400",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Griffin Bar",
+          "uri": "https://maps.google.com/maps/contrib/113684671524390319875"
+        }
+      ],
+      "placeName": "Griffin Bar"
+    },
+    {
+      "photoUri": "https://lh3.googleusercontent.com/place-photos/AG9NLjCuU4QXNTcGpKbAz1o2Rs_ps1wfqVxcboSnwQRwJ4BKMwDF4QO1hvi42fh4qYUpaBp8PNejkiXaYaGMpS8HKpePzNOWhSc4FWXzA65dXRFXr01piI7F1srkZohYfq7eX-K6n_dn5fY1iEmNuw=s1600-w1400",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Griffin Bar",
+          "uri": "https://maps.google.com/maps/contrib/113684671524390319875"
+        }
+      ],
+      "placeName": "Griffin Bar"
+    },
+    {
+      "photoUri": "https://lh3.googleusercontent.com/place-photos/AG9NLjAjw1R1uc0bjdmfiUbfJF1bJMuAVPCGMSul17pO0L8rf5EIh5gbP-RogxaK30Um60A8kADXqSZQoTHBZef6NdQoUrC4Z-kkeVY8KOYJOoBXmpKInv6Yfm9nDsaDp1SdRrE_ujpxBdYE3nPUgg=s1600-w1400",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Griffin Bar",
+          "uri": "https://maps.google.com/maps/contrib/113684671524390319875"
+        }
+      ],
+      "placeName": "Griffin Bar"
+    },
+    {
+      "photoUri": "https://lh3.googleusercontent.com/place-photos/AG9NLjDW7uTzIuj4BBpfAE04l45t6T_Cc-PzuJ1gI2z0_F54MjFci3eU8cIfGZhfqmaWwm5rQXpaY0Vchsh18aU4weZDUOzOkbcCYmXtX-Xqr55lnBlPs39ucXadLgl1ifFcm-FHbVF5kVraSRkYS2M=s1600-w1400",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Griffin Bar",
+          "uri": "https://maps.google.com/maps/contrib/113684671524390319875"
+        }
+      ],
+      "placeName": "Griffin Bar"
+    },
+    {
+      "photoUri": "https://lh3.googleusercontent.com/place-photos/AG9NLjDB_0zRV_066DPJHmqnXLOO6vAtnIPAJiCom0-9iiw_x-GN7t5whcvOKUDp7ggDfIH_161UbESKx_X5_kgkrEk4iaBnTO8HtfMY4CUqo9UyDddRFp4DM6s4gU-VxGk-UT5HG3oVufd-eWv81Q=s1600-w1400",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Griffin Bar",
+          "uri": "https://maps.google.com/maps/contrib/113684671524390319875"
+        }
+      ],
+      "placeName": "Griffin Bar"
+    },
+    {
+      "photoUri": "https://lh3.googleusercontent.com/place-photos/AG9NLjDAA3O20sXZH_3e64HC4l3ZhWt-WAGGvHDdkkHm1qK8vPH-En25YzUsiv3eTsrwCH31MnsBpARZbLmp7ohjL5W3GmDgqTOQF-aYSMaptv_l1jx1VGQNZ8KXi6AzLnjyvacag2bEFHq8ePuraYw=s1600-w1400",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Griffin Bar",
+          "uri": "https://maps.google.com/maps/contrib/113684671524390319875"
+        }
+      ],
+      "placeName": "Griffin Bar"
+    },
+    {
+      "photoUri": "https://lh3.googleusercontent.com/place-photos/AG9NLjDtXdKZl5FFF_XR05Cqb8Irawh7Qv4_2U7uljpn0pe_2VSXiaOBMSKJOLlg9e3fjceRDGE_q0u-uz2nCzmtBEP8voIh6Tu1RnCffb2zMyMaGC1ACG6bryHOGG2kTka6jyLBGrh2SOqjKDdLjsI=s1600-w1400",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Griffin Bar",
+          "uri": "https://maps.google.com/maps/contrib/113684671524390319875"
+        }
+      ],
+      "placeName": "Griffin Bar"
+    },
+    {
+      "photoUri": "https://lh3.googleusercontent.com/place-photos/AG9NLjDJIO4PrUevjj_toYZV0F3VASqErU_Fmd8mfUCtqfuiWF5MRFiWKtW3Zf102h-dT0ecuMBSsDuVap_judEB3uP_dqCUblil9_YLa43Jdkg53PSrH7_BfMSAS48SDRgyVHEi5qmWIn_PW1YK1rE=s1600-w1400",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Griffin Bar",
+          "uri": "https://maps.google.com/maps/contrib/113684671524390319875"
+        }
+      ],
+      "placeName": "Griffin Bar"
+    }
+  ]
+}

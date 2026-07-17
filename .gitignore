@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.DS_Store
+.env
+.env.local
+.env.*.local
+public/assets/audit/
+public/assets/*screenshot*.png
+public/assets/concepts-*.png
+public/assets/creative-concepts-*.png
+public/assets/google-*.png
+public/assets/menu-copy-*.png
+public/assets/reviews-*.png
+public/assets/soulful-*.png

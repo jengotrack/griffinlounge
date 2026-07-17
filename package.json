@@ -1,0 +1,20 @@
+{
+  "name": "griffinlounge",
+  "version": "1.0.0",
+  "description": "First-draft rebuild of the Griffin Lounge website.",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "fetch:google-photos": "node scripts/fetch-google-place-photos.mjs",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "playwright": "^1.61.1",
+    "vite": "^8.1.4"
+  }
+}
