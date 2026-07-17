@@ -62,17 +62,14 @@ const orderingBadges = [
   },
   {
     label: "Just Eat",
-    href: "https://www.just-eat.co.uk/",
     icon: `<path d="M6 7h12l-1 12H7z"/><path d="M9 7a3 3 0 0 1 6 0"/>`,
   },
   {
     label: "Uber Eats",
-    href: "https://www.ubereats.com/gb",
     icon: `<path d="M3 7h11v9H3z"/><path d="M14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="2"/><circle cx="18" cy="18" r="2"/>`,
   },
   {
     label: "Deliveroo",
-    href: "https://deliveroo.co.uk/",
     icon: `<path d="M12 21s7-4.4 7-11a7 7 0 1 0-14 0c0 6.6 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/>`,
   },
 ];
@@ -493,12 +490,19 @@ function renderConceptSection(section, concept) {
 
 function renderOrderingBadges() {
   return orderingBadges
-    .map(
-      (item) => `
+    .map((item) =>
+      item.href
+        ? `
         <a class="order-badge ${item.variant || ""}" href="${item.href}"${item.href.startsWith("http") ? ' target="_blank" rel="noreferrer"' : ""}>
           <svg viewBox="0 0 24 24" aria-hidden="true">${item.icon}</svg>
           ${item.label}
         </a>
+      `
+        : `
+        <span class="order-badge is-disabled ${item.variant || ""}" aria-disabled="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true">${item.icon}</svg>
+          ${item.label}
+        </span>
       `,
     )
     .join("");

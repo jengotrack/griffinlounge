@@ -295,6 +295,15 @@ h3 {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
 }
 
+.order-badge.is-disabled {
+  cursor: default;
+}
+
+.order-badge.is-disabled:hover {
+  transform: none;
+  box-shadow: none;
+}
+
 .order-badge svg {
   width: 16px;
   height: 16px;
