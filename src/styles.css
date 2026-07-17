@@ -673,6 +673,39 @@ h3 {
   color: rgba(255, 255, 255, 0.72);
 }
 
+.drinks-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.5fr);
+  gap: clamp(24px, 5vw, 56px);
+  align-items: center;
+  margin-top: clamp(30px, 5vw, 60px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at 80% 28%, rgba(229, 185, 79, 0.16), transparent 34%),
+    rgba(255, 255, 255, 0.05);
+  padding: clamp(18px, 4vw, 34px);
+}
+
+.drinks-feature h3 {
+  max-width: 680px;
+  font-size: clamp(2rem, 4vw, 4.2rem);
+  line-height: 0.94;
+}
+
+.drinks-feature p:not(.eyebrow) {
+  max-width: 620px;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.drinks-feature img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: var(--shadow);
+}
+
 .venue-gallery {
   display: grid;
   grid-template-columns: 1fr 0.72fr;
@@ -1542,7 +1575,8 @@ h3 {
   .reverse,
   .contact-section,
   .special-feature,
-  .reel-strip {
+  .reel-strip,
+  .drinks-feature {
     grid-template-columns: 1fr;
   }
 
