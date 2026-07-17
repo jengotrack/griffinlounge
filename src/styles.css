@@ -751,6 +751,23 @@ h3 {
   background: rgba(255, 255, 255, 0.7);
 }
 
+.contact-actions .social-link {
+  width: 46px;
+  padding: 0;
+  border-color: rgba(23, 17, 13, 0.18);
+  background: #fff;
+}
+
+.contact-actions .social-link img {
+  width: 20px;
+  height: 20px;
+}
+
+.contact-actions .social-link:hover {
+  border-color: var(--gold);
+  background: var(--gold);
+}
+
 .contact-form {
   display: grid;
   gap: 16px;
