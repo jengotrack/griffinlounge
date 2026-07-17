@@ -1,0 +1,14 @@
+{
+  "name": "Griffin Lounge",
+  "short_name": "Griffin Lounge",
+  "icons": [
+    {
+      "src": "/assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#101111",
+  "background_color": "#fffdf7",
+  "display": "standalone"
+}
