@@ -228,7 +228,9 @@ function renderConceptExperience() {
       <p>${business.name} concept review</p>
       <p>${business.address}</p>
       <small>Private direction review. Concepts may be combined before the final homepage is completed.</small>
+      ${renderFooterCredit()}
     </footer>
+    ${renderWhatsAppBubble()}
   `;
 }
 
@@ -509,6 +511,26 @@ function renderOrderingBadges() {
       `,
     )
     .join("");
+}
+
+function renderFooterCredit() {
+  return `
+    <div class="footer-credit">
+      <p>© 2026 THE SOLENT TECH GROUP. All rights reserved.</p>
+      <p>THE SOLENT TECH GROUP is a company registered in England and Wales (Company Number: 16926258). Registered office: 11 Milbrook Road E, Southampton, Hampshire, United Kingdom.</p>
+    </div>
+  `;
+}
+
+function renderWhatsAppBubble() {
+  return `
+    <a class="whatsapp-bubble" href="${business.whatsappOrder}" target="_blank" rel="noreferrer" aria-label="WhatsApp Griffin Lounge" title="WhatsApp Griffin Lounge">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 2a10 10 0 0 0-8.6 15.1L2.3 22l5-1.1A10 10 0 1 0 12 2z" />
+        <path d="M8.8 7.9c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.7 1.7c.1.2.1.4-.1.6l-.4.5c-.1.1-.2.3-.1.5.3.6.8 1.2 1.3 1.7.6.5 1.2.9 1.9 1.2.2.1.4.1.5-.1l.7-.8c.2-.2.4-.2.6-.1l1.6.8c.2.1.4.3.4.5 0 .8-.6 1.6-1.3 1.9-.7.3-2 .2-3.5-.6-1.3-.7-2.5-1.7-3.5-2.9-1-1.2-1.7-2.5-1.9-3.5-.2-.8.2-1.6.5-2z" />
+      </svg>
+    </a>
+  `;
 }
 
 async function hydrateGooglePhotos() {
