@@ -516,8 +516,8 @@ function renderOrderingBadges() {
 function renderFooterCredit() {
   return `
     <div class="footer-credit">
-      <p>© 2026 <a href="https://www.solenttech.com/" target="_blank" rel="noreferrer">THE SOLENT TECH GROUP</a>. All rights reserved.</p>
-      <p>THE SOLENT TECH GROUP is a company registered in England and Wales (Company Number: 16926258). Registered office: 11 Milbrook Road E, Southampton, Hampshire, United Kingdom.</p>
+      <p>Website by <a href="https://www.solenttech.com/" target="_blank" rel="noreferrer">Solent Tech</a></p>
+      <small>THE SOLENT TECH GROUP is a company registered in England and Wales (Company Number: 16926258). Registered office: 11 Milbrook Road E, Southampton, Hampshire, United Kingdom.</small>
     </div>
   `;
 }

@@ -865,38 +865,40 @@ h3 {
 
 .footer-credit {
   display: grid;
-  gap: 6px;
-  width: min(900px, 100%);
-  margin-top: 18px;
-  border-top: 1px solid rgba(255, 255, 255, 0.14);
-  padding-top: 18px;
-  color: rgba(255, 255, 255, 0.58);
-  font-size: 0.76rem;
-  line-height: 1.45;
+  gap: 4px;
+  width: min(720px, 100%);
+  margin-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 12px;
+  color: rgba(255, 255, 255, 0.38);
+  font-size: 0.68rem;
+  line-height: 1.4;
 }
 
-.footer-credit p {
+.footer-credit p,
+.footer-credit small {
   margin: 0;
 }
 
 .footer-credit p:first-child {
-  color: rgba(255, 255, 255, 0.78);
-  font-weight: 850;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.48);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
 }
 
 .footer-credit a {
   color: inherit;
-  text-decoration: underline;
-  text-decoration-color: rgba(229, 185, 79, 0.7);
-  text-underline-offset: 4px;
+  text-decoration: none;
 }
 
 .footer-credit a:hover,
 .footer-credit a:focus-visible {
-  color: #fff;
-  text-decoration-color: #e5b94f;
+  color: rgba(255, 255, 255, 0.78);
+  text-decoration: underline;
+  text-decoration-color: rgba(229, 185, 79, 0.62);
+  text-underline-offset: 3px;
 }
 
 .whatsapp-bubble {
