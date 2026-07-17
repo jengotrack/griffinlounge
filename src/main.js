@@ -6,6 +6,8 @@ const business = {
   email: "info@thegriffinlounge.uk",
   emailHref: "mailto:peter@thegriffinlounge.uk",
   menuUrl: "/assets/menu/griffin-menu-main.pdf",
+  whatsappOrder:
+    "https://wa.me/447404712153?text=Hi%20Griffin%20Lounge%2C%20I%20would%20like%20to%20place%20an%20order.",
   whatsapp:
     "https://wa.me/447404712153?text=Hi%20Griffin%20Lounge%2C%20I%20am%20reviewing%20the%20website%20concepts%20and%20my%20feedback%20is%3A",
 };
@@ -50,10 +52,10 @@ const featuredDishes = ["Jollof Rice", "Egusi", "Efo Riro", "Suya", "Whole Grill
 
 const orderingBadges = [
   {
-    label: "Call to Order",
+    label: "WhatsApp Order",
     variant: "is-direct",
-    href: business.phoneHref,
-    icon: `<path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7A2 2 0 0 1 22 16.9z"/>`,
+    href: business.whatsappOrder,
+    icon: `<path d="M12 2a10 10 0 0 0-8.6 15.1L2.3 22l5-1.1A10 10 0 1 0 12 2z"/><path d="M8.8 7.9c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.7 1.7c.1.2.1.4-.1.6l-.4.5c-.1.1-.2.3-.1.5.3.6.8 1.2 1.3 1.7.6.5 1.2.9 1.9 1.2.2.1.4.1.5-.1l.7-.8c.2-.2.4-.2.6-.1l1.6.8c.2.1.4.3.4.5 0 .8-.6 1.6-1.3 1.9-.7.3-2 .2-3.5-.6-1.3-.7-2.5-1.7-3.5-2.9-1-1.2-1.7-2.5-1.9-3.5-.2-.8.2-1.6.5-2z"/>`,
   },
   {
     label: "Food Menu",
@@ -477,7 +479,8 @@ function renderConceptSection(section, concept) {
           <p>${business.address}</p>
         </div>
         <div class="contact-actions">
-          <a href="${business.phoneHref}">${business.phone}</a>
+          <a class="whatsapp-link" href="${business.whatsappOrder}" target="_blank" rel="noreferrer">WhatsApp ${business.phone}</a>
+          <a href="${business.phoneHref}">Call ${business.phone}</a>
           <a href="${business.emailHref}">${business.email}</a>
           <a href="${business.whatsapp}" target="_blank" rel="noreferrer">WhatsApp Feedback</a>
         </div>
