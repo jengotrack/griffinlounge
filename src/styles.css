@@ -276,17 +276,23 @@ h3 {
 }
 
 .order-badge {
-  cursor: default;
+  cursor: pointer;
   color: #19140c;
   font-size: 0.76rem;
   letter-spacing: 0.01em;
+  text-decoration: none;
   text-transform: uppercase;
-  user-select: none;
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
 }
 
 .notice-band .order-badge {
   display: inline-flex;
   color: #19140c;
+}
+
+.order-badge:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
 }
 
 .order-badge svg {

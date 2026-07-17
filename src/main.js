@@ -52,22 +52,27 @@ const orderingBadges = [
   {
     label: "Call to Order",
     variant: "is-direct",
+    href: business.phoneHref,
     icon: `<path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7A2 2 0 0 1 22 16.9z"/>`,
   },
   {
     label: "Food Menu",
+    href: business.menuUrl,
     icon: `<path d="M4 3h16v18H4z"/><path d="M8 7h8M8 11h8M8 15h5"/>`,
   },
   {
     label: "Just Eat",
+    href: "https://www.just-eat.co.uk/",
     icon: `<path d="M6 7h12l-1 12H7z"/><path d="M9 7a3 3 0 0 1 6 0"/>`,
   },
   {
     label: "Uber Eats",
+    href: "https://www.ubereats.com/gb",
     icon: `<path d="M3 7h11v9H3z"/><path d="M14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="2"/><circle cx="18" cy="18" r="2"/>`,
   },
   {
     label: "Deliveroo",
+    href: "https://deliveroo.co.uk/",
     icon: `<path d="M12 21s7-4.4 7-11a7 7 0 1 0-14 0c0 6.6 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/>`,
   },
 ];
@@ -490,10 +495,10 @@ function renderOrderingBadges() {
   return orderingBadges
     .map(
       (item) => `
-        <span class="order-badge ${item.variant || ""}">
+        <a class="order-badge ${item.variant || ""}" href="${item.href}"${item.href.startsWith("http") ? ' target="_blank" rel="noreferrer"' : ""}>
           <svg viewBox="0 0 24 24" aria-hidden="true">${item.icon}</svg>
           ${item.label}
-        </span>
+        </a>
       `,
     )
     .join("");
